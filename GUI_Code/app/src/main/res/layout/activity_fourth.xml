@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/activity_main"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.example.yangning.myapplication.FourthActivity">
+<TextView
+    android:id="@+id/actscene"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="30sp"
+    android:layout_marginTop="25dp"
+    android:layout_marginLeft="170dp"
+    android:textStyle="bold"
+    android:text="Romeo and Juliet
+  Act I Scene I
+Playing: Gregory"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true" />
+
+<ImageView
+    android:id="@+id/flashcard"
+    android:layout_width="950dp"
+    android:layout_height="250dp"
+    android:layout_marginLeft="11dp"
+    android:layout_marginTop="35dp"
+    android:src="@drawable/flashcard2"
+    android:layout_below="@+id/actscene"
+    android:layout_alignParentEnd="true" />
+
+<TextView
+    android:id="@+id/line"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:layout_marginLeft="120dp"
+    android:textSize="30sp"
+    android:maxLines = "6"
+    android:scrollbars = "vertical"
+    android:layout_alignTop="@+id/flashcard"
+    android:layout_alignEnd="@+id/next4"
+    android:layout_marginTop="26dp" />
+
+<Button
+    android:id="@+id/flip"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_marginTop="58dp"
+    android:background="#00FFFFFF"
+    android:text="Flip"
+    android:textSize="30dp"
+    android:layout_marginLeft="500dp"
+    android:layout_alignTop="@+id/line"
+    android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/prev"
+        android:layout_width="160dp"
+        android:layout_height="85dp"
+        android:text="Prev"
+        android:textSize="30dp"
+        android:layout_alignBottom="@+id/next4"
+        android:layout_marginLeft="100dp"
+        />
+<Button
+    android:id="@+id/next4"
+    android:layout_width="160dp"
+    android:layout_height="85dp"
+    android:text="Next"
+    android:textSize="30dp"
+    android:layout_marginTop="500dp"
+    android:layout_marginLeft="340dp"
+    />
+<Button
+    android:id="@+id/back4"
+    android:layout_width="320dp"
+    android:layout_height="85dp"
+    android:text="Exit Flashcard"
+    android:textSize="30dp"
+    android:layout_marginLeft="70dp"
+    android:layout_marginBottom="99dp"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true" />
+</RelativeLayout>

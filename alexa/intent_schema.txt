@@ -1,0 +1,85 @@
+{
+  "intents": [
+    {
+      "slots": [
+        {
+          "name": "Practicing",
+          "type": "LIST_OF_PRACTICING"
+        }
+      ],
+      "intent": "MainIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "Practicing",
+          "type": "LIST_OF_PRACTICING"
+        }
+      ],
+      "intent": "StopIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "Cue",
+          "type": "LIST_OF_CUES"
+        }
+      ],
+      "intent": "RepeatIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "Practicing",
+          "type": "LIST_OF_PRACTICING"
+        }
+      ],
+      "intent": "PauseIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "Practicing",
+          "type": "LIST_OF_PRACTICING"
+        }
+      ],
+      "intent": "ResumeIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "Practicing",
+          "type": "LIST_OF_PRACTICING"
+        }
+      ],
+      "intent": "StartOverIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "Answer",
+          "type": "AMAZON.NUMBER"
+        }
+      ],
+      "intent": "JumpForwardIntent"
+    },
+    {
+      "intent": "FinishedLineIntent"
+    },
+    {
+      "intent": "CurrentLineIntent"
+    },
+    {
+      "intent": "AMAZON.YesIntent"
+    },
+    {
+      "intent": "AMAZON.NoIntent"
+    },
+    {
+      "intent": "WhatCanISayIntent"
+    },
+    {
+      "intent": "ContinueIntent"
+    }
+  ]
+}

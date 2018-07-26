@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yangning.myapplication.MainActivity"
+    android:orientation="vertical">
+
+
+    <!-- Editext for Search -->
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        >
+
+    <EditText
+        android:id="@+id/inputSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Search Script.."
+        android:inputType="textVisiblePassword"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:textSize="30sp"
+        />
+
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/inputSearch"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="43dp"
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="110px">
+
+
+
+    <Button
+        android:id="@+id/upload"
+        android:layout_width="fill_parent"
+        android:text="Upload New Script"
+        android:textSize="20sp"
+        android:onClick="onClick"
+        android:layout_below="@+id/list"
+        android:layout_height="80dp"
+
+        />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,2 @@
+LIST_OF_PRACTICING	practicing | running lines
+LIST_OF_CUES	cue | prompt | remind | Replay

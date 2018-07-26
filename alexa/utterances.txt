@@ -1,0 +1,33 @@
+MainIntent start {Practicing}
+MainIntent begin {Practicing}
+MainIntent start {Practicing}
+MainIntent begin {Practicing}
+MainIntent start
+MainIntent begin
+StopIntent stop {Practicing}
+StopIntent quit {Practicing}
+StopIntent done {Practicing}
+StopIntent finished {Practicing}
+RepeatIntent {Cue} me
+RepeatIntent {Cue} last line
+PauseIntent pause {Practicing}
+PauseIntent take a break
+PauseIntent lets pause
+PauseIntent lets take a break
+ResumeIntent continue {Practicing}
+ResumeIntent resume {Practicing}
+StartOverIntent restart {Practicing}
+StartOverIntent start from the top
+StartOverIntent restart
+JumpForwardIntent jump to line {Answer}
+JumpForwardIntent skip to line {Answer}
+JumpForwardIntent go to line {Answer}
+JumpForwardIntent change to line {Answer}
+FinishedLineIntent finished line
+FinishedLineIntent done line
+CurrentLineIntent whats my line
+CurrentLineIntent what do I say
+CurrentLineIntent read my line
+WhatCanISayIntent what can I say
+ContinueIntent continue line
+ContinueIntent continue lines

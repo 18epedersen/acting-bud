@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yangning.myapplication.VoiceActivity">
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Say 'Start Practicing' to start practicing with Alexa"
+        android:textSize="40sp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"/>
+
+
+    <ImageView
+        android:layout_width="380dp"
+        android:layout_height="800dp"
+        android:layout_marginLeft="100dp"
+        android:src="@drawable/male"
+        android:layout_alignTop="@+id/welcome"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageView" />
+    <!--<Button-->
+        <!--android:id="@+id/finish4"-->
+        <!--android:layout_width="160dp"-->
+        <!--android:layout_height="85dp"-->
+        <!--android:text="Finish"-->
+        <!--android:textSize="30dp"-->
+        <!--android:layout_marginTop="680dp"-->
+        <!--android:layout_marginLeft="360dp" />-->
+    <Button
+        android:id="@+id/back4"
+        android:layout_width="160dp"
+        android:layout_height="85dp"
+        android:text="Back"
+        android:textSize="30dp"
+        android:layout_marginLeft="70dp"
+        android:gravity="center"
+        android:layout_marginBottom="59dp"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
